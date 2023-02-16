@@ -1,0 +1,6 @@
+spring:
+  main.banner-mode: off
+  cloud.config.enabled: true
+  config.import: "configserver:"
+app:
+  test-property: defaultValue
